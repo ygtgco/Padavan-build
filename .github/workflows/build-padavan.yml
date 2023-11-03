@@ -75,7 +75,7 @@ jobs:
         ##新增##
         echo "CONFIG_FIRMWARE_INCLUDE_FRPC=y" >> .config #内网穿透FRPC
         echo "CONFIG_FIRMWARE_INCLUDE_FRPS=y" >> .config #内网穿透FRPS
-              
+        echo "CONFIG_FIRMWARE_INCLUDE_SMBD=n" >> .config #SMB3.6      
         
         ##内网穿透服务##
         echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> .config #zerotier ~1.3M
